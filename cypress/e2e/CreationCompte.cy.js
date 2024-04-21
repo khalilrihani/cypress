@@ -36,14 +36,6 @@ describe('Création de compte', () => {
       cy.contains("Congratulations! Your new account has been successfully created!")
     });
 
-    //Ajoutez autres test cases pour la partie creation du compte
-    /*
-    it('a create account test case', () => {
-      .
-      .
-      .
-      .
-    });
-    */
+    
 
   });

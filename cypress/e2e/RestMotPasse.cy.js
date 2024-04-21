@@ -11,14 +11,6 @@ describe('Mot de pass oublié', () => {
       cy.get('button[type="submit"]').contains('Continue').click()
       cy.contains(' An email with a confirmation link has been sent your email address.')
   
-  //Ajoutez autres test cases pour la partie forget password
-    /*
-    it('a forget password test case', () => {
-      .
-      .
-      .
-      .
-    });
-    */    
+      
   })
 })

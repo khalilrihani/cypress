@@ -13,15 +13,6 @@ describe('Ajouter un produit au panier', () => {
         cy.get('#entry_217825').find('a[aria-controls="cart-total-drawer"]').click()
         cy.get('a[href="https://ecommerce-playground.lambdatest.io/index.php?route=checkout/cart"]').click()
         cy.contains('tr','HTC Touch HD')
-    
-    //Ajoutez autres tests cases pour la modification et la suppression de produits ajoutés au panier 
-      /*
-      it('modifier la quantitié d'un produit', () => {
-        .
-        .
-        .
-        .
-      });
-      */    
+  
     })
   })
